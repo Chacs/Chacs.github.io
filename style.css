@@ -1,0 +1,83 @@
+body {
+    margin: 0%;
+    background-color: black;
+}
+
+p {
+    color: white;
+}
+
+h1 a {
+    color: white;
+}
+
+h1:hover {
+    font-size: 300%;
+}
+
+h2 {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    position: relative;
+    display: inline;
+    font-family: Coiny;
+    color: white;
+
+}
+
+nav {
+    background-color: rgb(49, 196, 98);
+    text-align: center;
+    margin: none;
+}
+
+
+nav ul {
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 0px 10px 0px;
+    font-size: 20px;
+    font-family: Coiny;
+    padding: 10px;
+    outline: 3px solid black;
+
+}
+
+nav ul li:hover {
+    transition: background-color .5s ease;
+    background: rgb(163, 8, 8);
+
+}
+
+
+.form {
+    background-image: url(frisbee_banner.jpg);
+    padding: 25px 10px 200px 10px;
+
+}
+
+form {
+    text-align: left;
+    color: white;
+    
+}
+
+.article {
+    column-count: 2;
+}
+.content {
+    margin: 20px;
+}
